@@ -9,7 +9,8 @@
 - @Transient를 사용하면 db와 상관없이 필드를 정의할 수 있다.
 - Collection을 사용할 거라면 List, set, map 중 하나만 사용한다.
 - 모든 entity는 primary key가 있어야 한다.
-- BigInteger, BigDecimal, Date, Calendar, Date, Time 등 다양한 자료형을 사용할 수 있다.
+- BigInteger, BigDecimal, Date, Calendar, Time 등 다양한 자료형을 사용할 수 있다.
+- (BigInteger, BigDecimal) -> decimal, (Date, Calendar) -> datetime, Time -> time 으로 변환된다.
 
 ## spring
 - spring은 lightweight Container와 연관이 있다.
@@ -18,4 +19,9 @@
   - 컨테이너를 통해 오브젝트에 접근할 수 있어야 한다.
   - 컨테이너를 통해 오브젝트를 관리할 수 있어야 한다.(configure)
   - 컨테이너는 dependency를 관리할 수 있어야 한다.
-BeanFactory, ApplicationContext, Component, Service, Configuration, Bean, SpringBootApplication
+- BeanFactory, ApplicationContext, Component, Service, Configuration, Bean, SpringBootApplication
+
+## java
+- jvm: 자바 바이트 코드를 os 특화 코드로(어셈블리?) 변환한다.
+- jvm 속 인터프리터: 바이트 코드를 한 줄씩 실행한다.
+- jvm 속 jit 컴파일러: 반복되는 코드를 모두 os 특화 코드로 미리 바꾼다.
