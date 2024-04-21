@@ -25,3 +25,4 @@
 - jvm: 자바 바이트 코드를 os 특화 코드로(어셈블리?) 변환한다.
 - jvm 속 인터프리터: 바이트 코드를 한 줄씩 실행한다.
 - jvm 속 jit 컴파일러: 반복되는 코드를 모두 os 특화 코드로 미리 바꾼다.
+- spring dependency injection, mvc view로 넘어온 데이터를 객체로 만들 때 reflection을 사용한다.
