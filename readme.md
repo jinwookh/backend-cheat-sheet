@@ -26,3 +26,7 @@
 - jvm 속 인터프리터: 바이트 코드를 한 줄씩 실행한다.
 - jvm 속 jit 컴파일러: 반복되는 코드를 모두 os 특화 코드로 미리 바꾼다.
 - spring dependency injection, mvc view로 넘어온 데이터를 객체로 만들 때 reflection을 사용한다.
+- byte조작: 메모리에 올라가기 전에 바이트코드를 조작하는 기술 ex) pinpoint, 코드 커버리지 계산
+- reflection: 이미 메모리에 올라간 클래스 정보 얻어오기 ex) 스프링 의존성 주입
+- dynamic proxy: 새로운 클래스를 런타임에 생성 ex) Mockito
+- annotation processor: 새로운 클래스를 컴파일 타임에 생성 ex) lombok
